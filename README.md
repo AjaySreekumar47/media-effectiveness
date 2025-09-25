@@ -53,5 +53,3 @@ media-effectiveness/
 
 * Data are simulated for portfolio purposes.
 * iROAS < 1 in the demo shows how positive lift can still be inefficient.
-
-```
