@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Notebooks & cache
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert.ipynb
+
+# Streamlit / Prophet / artifacts
+.streamlit/
+**/artifacts/**
+**/outputs/**
+cmdstan-*
+**/.cache/
+
+# OS
+.DS_Store
+
+# Large data (keep small demo CSVs, ignore big)
+data/*.parquet
+data/*.feather
+data/raw/**
